@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 #####################################################################
 #                          PHP Hangman Game                         #
@@ -182,7 +182,7 @@ else
   $n++;	# get next word
   if ($n>(count($words)-1)) $n=0;
   echo "<div class='img5'><BR><BR><H1><font size=5>\n$word_line</font></H1></div>\n";
-  echo "<div class='img5'><P><BR><BR><B>Congratulations!!! &nbsp;You win!!!</B><BR><BR><BR></div>\n";
+  echo "<div class='img5'><P><BR><BR><B>Congratulations!!! &nbsp;You win!!!<BR> YOUR SCORE : 5 </B><BR><BR><BR></div>\n";
   echo "<div class='img5'><A HREF='promotions.html'>Click Here to Claim Your Code</A>\n\n</div>";
 }
 

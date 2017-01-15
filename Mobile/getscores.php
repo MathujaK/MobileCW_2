@@ -18,7 +18,7 @@ header('Access-Control-Allow-Origin: *');
 
 
 
-$host="localhost:3307"; // Host name 
+$host="localhost"; // Host name 
 $username="root"; // Mysql username 
 $password=""; // Mysql password 
 $db_name="game"; // Database name 

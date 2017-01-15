@@ -1,7 +1,7 @@
 
 <?php
 
-  $connection = mysql_connect("localhost:3307", "root", "");
+  $connection = mysql_connect("localhost", "root", "");
 
 // Selecting Database 
   $db = mysql_select_db("game", $connection);

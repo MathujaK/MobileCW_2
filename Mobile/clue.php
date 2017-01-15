@@ -24,11 +24,12 @@
     <div class="content"> 
 
         <section id="quiz" class="hidden">
+		
             <div id="stats" class="clearfix">
                 <div id="stats-score">SCORE: <span class="score" name="score">1</span></div>
                 <div id="stats-progress">QUESTION: <span class="progress">0/0</span></div>
-				<div id="stats-name"><input type="text" id="name" value="" /> <span class="Name"></span></div>
-               
+				<div id="stats-name"><input type="text" name="name" id="name" value="" /> <span class="Name"></span></div>
+              
             </div>
             <div id="question">
                 <div id="icon"><i class="fa fa-bolt"></i></div>

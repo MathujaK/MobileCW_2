@@ -1,4 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php
+include_once 'dbconnect.php';
+?>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -40,7 +44,7 @@
 
 	<div id="page-wrap">
 
-		<h1 class="title1">Picture Quiz Result</h1>
+		<center><h1 class="title1">Picture Quiz Result</h1></center><br><br>
 		
         <?php
             
@@ -58,9 +62,15 @@
             if ($answer4 == "D") { $totalCorrect++; }
             
             
-            echo "<h4><div id='results'>$totalCorrect / 4 correct</div></h4>";
-            
+            echo "<center><h3><div id='results'>$totalCorrect / 4 correct</div></h3></center><br><br><br>";
+            	
         ?>
+		<center>
+		<form method="POST" action="/mobcw2/total.php" >
+			<input type=hidden  name="quiz_score" value="<?php echo $totalCorrect; ?>"> 
+			<input type=submit value="check score">
+			</form></center>
+	
 	
 	</div>
 	
