@@ -1,0 +1,131 @@
+body {
+background: url(../images/q.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.position{
+margin-top: 220px;
+}
+
+.row div > h2 {
+font-family: 'Merienda One';
+font-size: 25px;
+color: #330000;
+}
+
+.row div > p {
+font-family: 'Quattrocento';
+}
+
+.row #collapse-content {
+top: 20px;
+}
+
+.row div > h4 {
+color: #804000;
+margin-top: -5px;
+font-size: 15px;
+}
+
+div #collapse-content > img{
+border-radius: 8px;
+width:578px;
+height:244px;
+opacity:0.9;
+}
+
+div.row > div > img {
+width: 304px;
+height: 208px;
+margin-top:8px;
+margin-left: 5px;
+margin-bottom:10px;
+opacity:0.9;
+}
+
+#accordion{
+display: none;
+}
+
+@media (min-width: 320px) and (max-width: 359px){
+
+
+
+}
+
+@media (min-width: 360px) and (max-width: 374px){
+
+
+
+}
+
+@media (min-width: 375px) and (max-width: 411px){
+
+
+
+}
+
+@media (min-width: 412px) and (max-width: 413px){
+
+
+
+}
+
+@media (min-width: 414px) and (max-width: 639px){
+
+.position{
+margin-top: 250px;
+}
+
+}
+
+@media (min-width: 640px) and (max-width: 680px){
+
+.position{
+margin-top: 250px;
+}
+
+}
+
+@media (min-width: 681px) and (max-width: 767px){
+
+.position{
+margin-top: 440px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1000px){
+
+.position{
+margin-top: 385px;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+
+.position{
+margin-top: 435px;
+}
+}
+
+@media (min-width: 1280px) and (max-width: 1339px){
+
+.position{
+margin-top: 615px;
+}
+
+}
+
+@media (min-width: 1440px){
+
+.position{
+margin-top: 525px;
+}
+
+}

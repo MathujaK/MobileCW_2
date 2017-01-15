@@ -1,0 +1,49 @@
+
+.fa::before 
+{
+	display: block;
+	margin-top: 5px;
+	width: 15px;
+}
+
+@media (min-width:768px) 
+
+{
+	.fa::before 
+	{	
+	width: 17px;
+    }
+}
+
+@media (min-width:1024px) 
+
+{
+	.fa::before 
+	{	
+	width: 25px;
+    }
+
+}
+
+@media (min-width:1280px) 
+
+{
+	.fa::before 
+	{	
+	width: 30px;
+    }
+
+}
+
+@media (min-width:1440px) 
+
+{
+	.fa::before 
+	{	
+	width: 30px;
+    }
+
+}
+
+
+

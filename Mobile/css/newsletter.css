@@ -1,0 +1,54 @@
+.intro-header {
+	color: #f8f8f8;
+	text-align: center;
+}
+
+.container1{
+
+background-image: url(../images/newsletter.jpg);
+ background-size: cover;
+height: 280px;
+
+
+}
+.custom-tab-content{
+
+font-family: 'Merienda One';
+color:black;
+
+}
+
+#signup-button{
+margin-top: -70px;
+background-color: black;
+border: 1px solid black;
+}
+
+#signup-button:hover,
+#signup-button:focus,
+#signup-button.focus {
+  background-color: black;
+  text-decoration: none;
+  border: 1px solid black;
+}
+#signup-button .hover{
+
+background-color: black;
+
+}
+
+@media (min-width: 1024px){
+#signup-button{
+margin-top: 5px;
+}
+
+.container1{
+
+
+height: 280px;
+
+
+}
+}
+
+
